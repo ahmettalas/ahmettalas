@@ -9,7 +9,6 @@ I am the core engineer behind **PureEngine** at Pure Input — an AI-driven, ful
 - **500+ concurrent calls** on a 6-server distributed architecture
 - Horizontally scalable dialer/worker architecture — capacity grows linearly as workers are added
 - A production race condition causing 25-30% slot over-allocation, resolved with atomic Redis + Lua operations
-- STT first-word latency reduced from 3.2s to under 2.3s with a custom proxy, pre-warmed connection pools and a fresh-session strategy
 - 80%+ of answers resolved locally through a three-layer resolution pipeline, cutting LLM API cost
 - Zero-downtime migration from Supabase to self-hosted PostgreSQL
 
